@@ -3,6 +3,9 @@ name = "fortuna"
 version = "1.0.0"
 description = "Pull token info from the transactions log on bscscan.com"
 authors = ["jonxola"]
+packages = [
+    { include = "fortuna" }
+]
 
 [tool.poetry.scripts]
 fortuna = 'fortuna:run'
